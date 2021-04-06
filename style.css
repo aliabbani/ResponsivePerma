@@ -77,3 +77,74 @@ header {
 .header-yellow a p {
     color: #000;
 }
+
+/* footer design */
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align:center;
+}
+.silver-black{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #131313;
+    padding: 2.5% 0;
+}
+.icons{
+    flex-basis: 100%;
+}
+.icons ul li{
+    display: inline;
+    padding: 1rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.navigation{
+    padding-top: 2rem ;
+}
+.navigation ul li{
+    display: inline;
+    padding: 0.5rem;
+}
+
+
+.deep-black {
+    display: inline-block;
+    background-color: #000;
+    width: 100%;
+    height: 6rem;
+    top: 2rem;
+    padding-bottom: 0;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.word p {
+    color: white;
+}
+
+.footer-logo1,
+.footer-logo2,
+a,
+img {
+    width: 20%;
+}
+
+.copyright .footer-logo1 img {
+   float: right;
+}
+
+.copyright .footer-logo2 img {
+   width: 30%;
+   padding-top: 0;
+   margin-right:12rem;
+}
+
