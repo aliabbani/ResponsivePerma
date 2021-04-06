@@ -179,7 +179,7 @@ header {
   margin-left: 0.8rem;
   margin-bottom: 0.5rem;
   padding: 1rem;
-  background-image: linear-gradient(rgba(189, 8, 8, 0.2), rgb(203, 9, 221)), url(images/boost.png);
+  background-image: linear-gradient(rgba(240, 10, 10, 0.2), rgb(203, 9, 221)), url(images/boost.png);
   height: 15rem;
 }
 
@@ -229,15 +229,18 @@ header {
   padding-bottom: 1rem;
 }
 
-.latest-funding-header-right a {
-  color: #f42;
+.deep-black .copyright .footer-logo1 a .new1 {
+  width: 20%;
 }
 
-.footer-logo1,
-.footer-logo2,
-a,
-img {
+.deep-black .copyright .footer-logo2 a .new2 {
   width: 20%;
+  float: left;
+
+}
+
+.latest-funding-header-right a {
+  color: #f42;
 }
 
 .latest-funding-header h1 a {
@@ -258,6 +261,7 @@ img {
 }
 
 #latest-funding-container {
+  display: -ms-grid;
   display: grid;
   grid-template: 2fr 4fr 5fr 5fr / repeat(4, 25%);
   grid-column-gap: 1rem;
@@ -332,7 +336,13 @@ footer {
 }
 
 .icons {
+  cursor: pointer;
+  color: gray;
   flex-basis: 100%;
+}
+
+.icons ul li:hover {
+  color: white;
 }
 
 .navigation {
@@ -350,6 +360,7 @@ footer {
   height: 6rem;
   top: 2rem;
   padding-bottom: 0;
+  padding-left: 10rem;
 }
 
 .copyright {
@@ -357,4 +368,5 @@ footer {
   justify-content: center;
   align-items: center;
   padding-top: 2rem;
+
 }
