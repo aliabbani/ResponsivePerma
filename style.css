@@ -107,7 +107,7 @@ header {
     grid-template: 2fr 4fr 5fr 5fr / repeat(4, 25%);
     grid-column-gap: 1rem;
     width: 90%;
-    height: auto;
+    height: 20rem;
     padding-left: 3rem;
     padding-right: 3rem;
 }
@@ -213,6 +213,10 @@ footer {
     padding: 0.5rem;
 }
 
+.navigation ul li a:hover{
+    color: white;
+}
+
 
 .deep-black {
     display: inline-block;
@@ -231,7 +235,9 @@ footer {
 }
 
 .word p {
-    color: white;
+    color: #aaa;
+    font-size: 0.85rem;
+    font: inherit;
 }
 
 .footer-logo1,
