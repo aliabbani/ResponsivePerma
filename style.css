@@ -47,10 +47,6 @@ header {
     padding-left: 1rem;
 }
 
-.header-white-left {
-    
-}
-
 .header-white-right {
    border-left: 1px solid gray;
    padding-left: 1.5rem;
@@ -77,6 +73,113 @@ header {
 .header-yellow a p {
     color: #000;
 }
+/* section latest-funding */
+.latest-funding-header{
+    display:flex;
+    width:90%;
+    justify-content: space-between;
+    align-items:baseline;
+    padding-left:3rem;
+    padding-bottom: 1rem;
+}
+.latest-funding-header h1 a{
+    color: #f42; 
+    font-size:2rem;
+}
+
+.latest-funding-header h1 a:hover{
+    color: black; 
+}
+
+.latest-funding-header-right{
+    float:right;
+}
+.latest-funding-header-right a{
+    color: #f42;;
+}
+
+.latest-funding-header-right a:hover{
+    color: #2b2a27;
+}
+
+#latest-funding-container{
+    display: grid;
+    grid-template: 2fr 4fr 5fr 5fr / repeat(4, 25%);
+    grid-column-gap: 1rem;
+    width: 90%;
+    height: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.funding-container-pink{
+    display: flex;
+    background-color: pink;
+    height: auto;
+    padding-bottom: 10px;
+    position: relative;   
+}
+
+.funding-container-pink img{
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.funding-orange{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 40px;
+    background-color: orangered;
+}
+
+.funding-dlocal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-left: 6px;
+}
+
+.funding-dlocal h4{
+    color: white;
+    font-size: 20px;
+}
+
+.funding-dlocal span {
+    font-weight: 650;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  
+.funding-dlocal p {
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.funding-commerce{
+    padding: 7%;
+}
+
+.funding-commerce i {
+    margin-right: 5%;
+    color: black;
+}
+
+.funding-commerce p {
+    margin-top:5%;
+}
+
+.funding-commerce p:hover{
+    color: #2b2a27;
+}
+
+.funding-p {
+    padding:7%;
+    border-top: 1px solid orange;
+}
+
+
 
 /* footer design */
 footer {
@@ -147,4 +250,3 @@ img {
    padding-top: 0;
    margin-right:12rem;
 }
-
