@@ -177,7 +177,6 @@ header {
 }
 
 #content-grid .content-1 .two-in-one .second {
- 
   margin-bottom: 0.5rem;
   padding: 1rem;
   background-image: linear-gradient(rgba(240, 10, 10, 0.2), rgb(203, 9, 221)), url(images/boost.png);
@@ -218,6 +217,7 @@ header {
 }
 
 /* section latest-funding */
+
 .latest-funding-header {
   display: flex;
   width: 100%;
@@ -323,6 +323,7 @@ header {
 }
 
 /* footer design */
+
 footer {
   display: flex;
   flex-direction: column;
@@ -371,176 +372,168 @@ footer {
   padding-top: 3%;
 }
 
-/*****MOBILE******/
+/*****  MOBILE  ******/
+
 @media screen and (max-width: 480px) {
   body {
-     background-color: #fff;
+    background-color: #fff;
   }
 
   .header-black {
-     display: none;
+    display: none;
+  }
+
+  .navigation ul li {
+    font-size: 0.5rem;
   }
 
   .header-white-left a ul li {
-     display:none;
-     height: 2rem;
+    display: none;
+    height: 2rem;
   }
 
   .header-yellow {
-     display:flex;
-     width: 100%;
-     height: 2.5rem;
-     font-size: 0.75rem;
-   }
+    display: flex;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 0.75rem;
+  }
 
   .header-white {
-     height: 2.5rem;
+    height: 2.5rem;
   }
 
   #content-grid {
-       padding-right: 1rem;
-       padding-left: 1rem;
-    }
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
 
-   .content-1 {
-        display: flex;
-        flex-direction: column;
-   }
+  .content-1 {
+    display: flex;
+    flex-direction: column;
+  }
 
-  #content-grid .content-1 .first{
-        height: 9rem;
-        margin-bottom: 0.5rem;
-        margin-right: -0.1rem;
+  #content-grid .content-1 .first {
+    height: 9rem;
+    margin-bottom: 0.5rem;
+    margin-right: -0.1rem;
   }
 
   #content-grid .content-1 .two-in-one .second {
-        height: 9rem;
-  }
-
-  #content-grid .content-1 .two-in-one .third {
-        height: 9rem;
+    height: 9rem;
   }
 
   #content-grid .content-1 .first .tuesday {
-        display: none;
+    display: none;
   }
 
   #content-grid .content-1 .first .insights {
-        position: relative;
-        top: 1rem;
-        line-height: 1rem;
-        color: #fff;
-  }
-      
-  #content-grid .content-1 .first .insights2 {
-        font-family: inherit;
-        font-size: 0.7rem;
-  }
-      
-  #content-grid .content-1 .first .by-cult {
-        position: relative;
-        top: 1rem;
-        color: rgb(104, 100, 100);
-        font-size: 00.75rem;
+    position: relative;
+    top: 1rem;
+    line-height: 1rem;
+    color: #fff;
   }
 
-  #content-grid .content-1 .two-in-one .second p {
-        padding-top: 5rem;
-        font-family: inherit;
-        font-size: 1rem;
-        font-weight: bold;
-        color: #fff;
+  #content-grid .content-1 .first .insights2 {
+    font-family: inherit;
+    font-size: 0.7rem;
+  }
+
+  #content-grid .content-1 .first .by-cult {
+    position: relative;
+    top: 1rem;
+    color: rgb(104, 100, 100);
+    font-size: 00.75rem;
   }
 
   #content-grid .content-1 .two-in-one .third {
-        /* margin-left: 0.8rem; */
-        margin-top: 0.5rem;
-        padding: 1rem;
-        background-image: linear-gradient(rgba(85, 5, 5, 0.2), rgb(7, 13, 97)), url(images/do-math.jpg);
-        height: 9.5rem;
-        font-family: inherit;
-        padding-top: 4rem;
-   }
-      
+    /* margin-left: 0.8rem; */
+    margin-top: 0.5rem;
+    padding: 1rem;
+    background-image: linear-gradient(rgba(85, 5, 5, 0.2), rgb(7, 13, 97)), url(images/do-math.jpg);
+    height: 9.5rem;
+    font-family: inherit;
+    padding-top: 4rem;
+  }
+
   #content-grid .content-1 .two-in-one .third .insights3 {
-        color: #fff;
-        font-size: 1rem;
-   }
-      
+    color: #fff;
+    font-size: 1rem;
+  }
+
   #content-grid .content-1 .two-in-one .third .insights4 {
-        color: #fff;
-        font-size: 1rem;
-   }
-      
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .funding-commerce p {
+    font-size: 0.75rem;
+  }
+
   #content-grid .content-1 .two-in-one .second p {
-        padding-top: 4rem;
-        font-family: inherit;
-        font-size: 0.6rem;
-        font-weight: bold;
-        color: #fff;
+    padding-top: 4rem;
+    font-family: inherit;
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: #fff;
   }
-      
+
   #content-grid .content-1 .two-in-one .third .entire {
-        padding-top: 0.5rem;
-        font-size: 0.85rem;
+    padding-top: 0.5rem;
+    font-size: 0.85rem;
   }
-      
+
   #content-grid .content-1 .two-in-one .third .entire p {
-        color: gray;
+    color: gray;
   }
 
   .latest-funding-header {
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        flex-wrap:wrap;
-        margin-top: -11rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -11rem;
   }
 
   .latest-funding-header h1 a {
-        font-size: 1rem;
-       
+    font-size: 1rem;
   }
 
   .latest-funding-header-right {
-        display:flex;
-        flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .latest-funding-container {
-        display: -ms-grid;
-        display: grid;
-        grid-template: 1fr 1fr 1fr 1fr / 4fr;
-        width:100%;
-        grid-row-gap: 1rem;
-        width: 100%;
-        height: 20rem;
+    display: -ms-grid;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 4fr;
+    width: 100%;
+    grid-row-gap: 1%;
+    height: 20rem;
   }
 
-   .funding-container1 {
-        width: 100%;
-     }
-   .funding-commerce p {
-        font-size:0.75rem;
-    }
-    .funding-p {
-        font-size:0.75rem;
-    }
-     
-    .footer-mobile{
-        margin-top: 60rem;
-        height:13rem;
-    }
+  .funding-container1 {
+    width: 100%;
+  }
 
-    .copyright {
-        margin-top: 1.7rem;
-     }
+  .funding-p {
+    font-size: 0.75rem;
+  }
+
+  .footer-mobile {
+    margin-top: 60rem;
+    height: 13rem;
+  }
+
+  .copyright {
+    margin-top: 1.7rem;
+  }
 }
 
+/********  TABLET  ********/
 
-/********TABLET********/
-
-@media (min-width: 480px) and (max-width: 768px){
+@media (min-width: 480px) and (max-width: 768px) {
   body {
     background-color: #fff;
   }
@@ -556,7 +549,7 @@ footer {
 
   .header-white-left a ul > li:nth-child(6),
   .header-white-left a ul > li:last-child {
-     display: none; 
+    display: none;
   }
 
   .header-yellow {
@@ -572,57 +565,36 @@ footer {
     height: 30rem;
     margin-right: -1.5rem;
   }
-  
-  #content-grid .content-1 .two-in-one .second {
-    margin-bottom: 0.9rem;
-    padding: 1rem;
-    background-image: linear-gradient(rgba(240, 10, 10, 0.2), rgb(203, 9, 221)), url(images/boost.png);
-    height: 15rem;
-  }
-  
-  #content-grid .content-1 .two-in-one .third {
-    margin-top: 0.9rem;
-    padding: 1rem;
-    background-image: linear-gradient(rgba(85, 5, 5, 0.2), rgb(7, 13, 97)), url(images/do-math.jpg);
-    height: 14.5rem;
-    font-family: inherit;
-    padding-top: 5.5rem;
-  }
 
-  #content-grid .content-1 .first .tuesday {
-    float: right;
-    color: #fff;
-  }
-  
   #content-grid .content-1 .first .insights {
     position: relative;
     top: 14.5rem;
     line-height: 2rem;
     color: #fff;
   }
-  
+
   #content-grid .content-1 .first .insights2 {
     font-family: inherit;
     font-size: 2rem;
   }
-  
+
   #content-grid .content-1 .first .by-cult {
     position: relative;
     top: 15rem;
     color: rgb(104, 100, 100);
   }
 
-  #content-grid .content-1 .two-in-one {
-    height: 30rem;
-  }
-  
   #content-grid .content-1 .two-in-one .second {
     margin-bottom: 0.2rem;
     padding: 1rem;
     background-image: linear-gradient(rgba(240, 10, 10, 0.2), rgb(203, 9, 221)), url(images/boost.png);
     height: 15rem;
   }
-  
+
+  .funding-commerce p {
+    font-size: 0.85rem;
+  }
+
   #content-grid .content-1 .two-in-one .second p {
     font-size: 1.2rem;
   }
@@ -636,7 +608,7 @@ footer {
     font-size: 0.8rem;
     padding-top: 3.8rem;
   }
-  
+
   #content-grid .content-1 .two-in-one .third .insights3 {
     color: #fff;
   }
@@ -649,7 +621,7 @@ footer {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     flex-direction: column;
   }
 
@@ -658,7 +630,7 @@ footer {
   }
 
   .latest-funding-header-right {
-    display:flex;
+    display: flex;
     flex-direction: column-reverse;
   }
 
@@ -673,19 +645,15 @@ footer {
     padding-right: 3%;
   }
 
-  .funding-container4{
-    display:none;
-  }
-
-  .funding-commerce p {
-    font-size:0.85rem;
+  .funding-container4 {
+    display: none;
   }
 
   .funding-p {
-    font-size:0.75rem;
+    font-size: 0.75rem;
   }
 
-  .footer-mobile{
-    margin-top: 0rem;
+  .footer-mobile {
+    margin-top: 0;
   }
 }
