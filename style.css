@@ -281,9 +281,12 @@ header {
 .funding-orange {
   position: absolute;
   width: 100%;
-  z-index: -1;
+  z-index: 1;
   height: 40px;
   background-color: orangered;
+}
+.funding-container-pink img{
+  z-index: 1;
 }
 
 .funding-dlocal {
@@ -291,6 +294,7 @@ header {
   flex-direction: column;
   margin-top: 10px;
   padding-left: 6px;
+  z-index: 1;
 }
 
 .funding-dlocal h4 {
