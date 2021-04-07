@@ -1,7 +1,7 @@
 # ResponsivePerma
 Project 2: Building with Responsive Design.
  
-This Project is a clone of the New Web page ![](https://thenextweb.com/)
+This Project is a clone of the New Web page (https://thenextweb.com/)
  
 ![](images/ResponsivePerma-screenshot.PNG)
  
