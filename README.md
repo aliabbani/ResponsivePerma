@@ -3,7 +3,7 @@ Project 2: Building with Responsive Design.
  
 This Project is a clone of the New Web page (https://thenextweb.com/)
  
-![](images/ResponsivePerma-screenshot.PNG)
+![](images/screenshot.png)
  
  
 ## Built With
@@ -12,7 +12,7 @@ This Project is a clone of the New Web page (https://thenextweb.com/)
 - Coffee
  
 ## Live Demo
-[Live Demo Link] ( https://aliabbani.github.io/ResponsivePerma)
+[Live Demo Link] ()
  
 # Authors
  
