@@ -177,7 +177,7 @@ header {
 }
 
 #content-grid .content-1 .two-in-one .second {
-  /* margin-left: 0.8rem; */
+ 
   margin-bottom: 0.5rem;
   padding: 1rem;
   background-image: linear-gradient(rgba(240, 10, 10, 0.2), rgb(203, 9, 221)), url(images/boost.png);
@@ -185,7 +185,6 @@ header {
 }
 
 #content-grid .content-1 .two-in-one .third {
-  /* margin-left: 0.8rem; */
   margin-top: 0.5rem;
   padding: 1rem;
   background-image: linear-gradient(rgba(85, 5, 5, 0.2), rgb(7, 13, 97)), url(images/do-math.jpg);
@@ -520,7 +519,129 @@ footer {
       }
      
       .footer-mobile{
-        margin-top:60rem;
+        margin-top: 60rem;
         height:25rem;
       }
+
+      .copyright {
+        margin-top: 1.7rem;
+      }
+
+}
+
+
+/********TABLET********/
+
+@media screen and (max-width: 768px) {
+ 
+  body {
+    background-color: #fff;
+  }
+
+  .header-white {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 3rem;
+    padding: 0 1rem;
+  }
+
+
+  .header-white-left a ul > li:nth-child(6) { display: none; }
+
+  .header-white-left a ul > li:last-child { display: none; }
+
+
+  .header-yellow {
+    display: flex;
+    background-color: yellow;
+    padding-left: 2rem;
+    height: 3rem;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .header-yellow a p {
+    
+  }
+
+  #content-grid .content-1 .two-in-one {
+    height: 30rem;
+    margin-right: -1.5rem;
+  }
+  
+  #content-grid .content-1 .two-in-one .second {
+    margin-bottom: 0.9rem;
+    padding: 1rem;
+    background-image: linear-gradient(rgba(240, 10, 10, 0.2), rgb(203, 9, 221)), url(images/boost.png);
+    height: 15rem;
+  }
+  
+  #content-grid .content-1 .two-in-one .third {
+    margin-top: 0.9rem;
+    padding: 1rem;
+    background-image: linear-gradient(rgba(85, 5, 5, 0.2), rgb(7, 13, 97)), url(images/do-math.jpg);
+    height: 14.5rem;
+    font-family: inherit;
+    padding-top: 5.5rem;
+  }
+
+  #content-grid .content-1 .first .tuesday {
+    float: right;
+    color: #fff;
+  }
+  
+  #content-grid .content-1 .first .insights {
+    position: relative;
+    top: 14.5rem;
+    line-height: 2rem;
+    color: #fff;
+  }
+  
+  #content-grid .content-1 .first .insights2 {
+    font-family: inherit;
+    font-size: 2rem;
+  }
+  
+  #content-grid .content-1 .first .by-cult {
+    position: relative;
+    top: 15rem;
+    color: rgb(104, 100, 100);
+  }
+
+  #content-grid .content-1 .two-in-one {
+    height: 30rem;
+  }
+  
+  #content-grid .content-1 .two-in-one .second {
+    margin-bottom: 0.2rem;
+    padding: 1rem;
+    background-image: linear-gradient(rgba(240, 10, 10, 0.2), rgb(203, 9, 221)), url(images/boost.png);
+    height: 15rem;
+  }
+  
+  #content-grid .content-1 .two-in-one .second p {
+    font-size: 1.2rem;
+  }
+
+  
+  #content-grid .content-1 .two-in-one .third {
+    margin-top: 0.5rem;
+    padding: 1rem;
+    background-image: linear-gradient(rgba(85, 5, 5, 0.2), rgb(7, 13, 97)), url(images/do-math.jpg);
+    height: 14.5rem;
+    font-family: inherit;
+    font-size: 0.8rem;
+    padding-top: 3.8rem;
+  }
+  
+  #content-grid .content-1 .two-in-one .third .insights3 {
+    color: #fff;
+  }
+
+  #content-grid .content-1 .first .tuesday {
+    display: none;
+  }
+  
 }
