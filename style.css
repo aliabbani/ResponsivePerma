@@ -119,6 +119,7 @@ header {
   margin: 10px;
   height: 60px;
   width: 60px;
+  z-index: 1;
 }
 
 .footer-logo1 img {
@@ -284,9 +285,6 @@ header {
   z-index: 1;
   height: 40px;
   background-color: orangered;
-}
-.funding-container-pink img{
-  z-index: 1;
 }
 
 .funding-dlocal {
