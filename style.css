@@ -265,9 +265,9 @@ header {
   grid-template: 2fr 4fr 5fr 5fr / repeat(4, 25%);
   grid-column-gap: 1rem;
   width: 100%;
-  height: auto;
+  height: 20rem;
   padding-left: 3%;
-  padding-right: 3%;
+  padding-right: 5%;
 }
 
 .funding-container-pink {
@@ -369,86 +369,86 @@ footer {
 
 /*****MOBILE******/
 @media screen and (max-width: 480px) {
-    body {
-        background-color: #fff;
+  body {
+     background-color: #fff;
+  }
+
+  .header-black {
+     display: none;
+  }
+
+  .header-white-left a ul li {
+     display:none;
+     height: 2rem;
+  }
+
+  .header-yellow {
+     display:flex;
+     width: 100%;
+     height: 2.5rem;
+     font-size: 0.75rem;
+   }
+
+  .header-white {
+     height: 2.5rem;
+  }
+
+  #content-grid {
+       padding-right: 1rem;
+       padding-left: 1rem;
     }
 
-    .header-black {
-        display: none;
-    }
-
-    .header-white-left a ul li {
-        display:none;
-        height: 2rem;
-    }
-
-    .header-yellow {
-        display:flex;
-        width: 100%;
-        height: 2.5rem;
-        font-size: 0.75rem;
-    }
-
-    .header-white {
-        height: 2.5rem;
-    }
-
-    #content-grid {
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
-
-    .content-1 {
+   .content-1 {
         display: flex;
         flex-direction: column;
-    }
+   }
 
-    #content-grid .content-1 .first{
+  #content-grid .content-1 .first{
         height: 9rem;
         margin-bottom: 0.5rem;
         margin-right: -0.1rem;
-    }
+  }
 
-    #content-grid .content-1 .two-in-one .second {
+  #content-grid .content-1 .two-in-one .second {
         height: 9rem;
-    }
+  }
 
-    #content-grid .content-1 .two-in-one .third {
+  #content-grid .content-1 .two-in-one .third {
         height: 9rem;
-    }
+  }
 
-    #content-grid .content-1 .first .tuesday {
+  #content-grid .content-1 .first .tuesday {
         display: none;
-    }
+  }
 
-    #content-grid .content-1 .first .insights {
+  #content-grid .content-1 .first .insights {
         position: relative;
         top: 1rem;
         line-height: 1rem;
         color: #fff;
-    }
+  }
       
-      #content-grid .content-1 .first .insights2 {
+  #content-grid .content-1 .first .insights2 {
         font-family: inherit;
         font-size: 0.7rem;
-    }
+  }
       
-      #content-grid .content-1 .first .by-cult {
+  #content-grid .content-1 .first .by-cult {
         position: relative;
         top: 1rem;
         color: rgb(104, 100, 100);
         font-size: 00.75rem;
-    }
+  }
 
-    #content-grid .content-1 .two-in-one .second p {
+  #content-grid .content-1 .two-in-one .second p {
         padding-top: 5rem;
         font-family: inherit;
         font-size: 1rem;
         font-weight: bold;
         color: #fff;
-    }
+  }
 
-    #content-grid .content-1 .two-in-one .third {
+  #content-grid .content-1 .two-in-one .third {
         /* margin-left: 0.8rem; */
         margin-top: 0.5rem;
         padding: 1rem;
@@ -456,50 +456,54 @@ footer {
         height: 9.5rem;
         font-family: inherit;
         padding-top: 4rem;
-      }
+   }
       
-      #content-grid .content-1 .two-in-one .third .insights3 {
+  #content-grid .content-1 .two-in-one .third .insights3 {
         color: #fff;
         font-size: 1rem;
-      }
+   }
       
-      #content-grid .content-1 .two-in-one .third .insights4 {
+  #content-grid .content-1 .two-in-one .third .insights4 {
         color: #fff;
         font-size: 1rem;
-      }
+   }
       
-      #content-grid .content-1 .two-in-one .second p {
+  #content-grid .content-1 .two-in-one .second p {
         padding-top: 4rem;
         font-family: inherit;
         font-size: 0.6rem;
         font-weight: bold;
         color: #fff;
-      }
+  }
       
-      #content-grid .content-1 .two-in-one .third .entire {
+  #content-grid .content-1 .two-in-one .third .entire {
         padding-top: 0.5rem;
         font-size: 0.85rem;
-      }
+  }
       
-      #content-grid .content-1 .two-in-one .third .entire p {
+  #content-grid .content-1 .two-in-one .third .entire p {
         color: gray;
-      }
-      .latest-funding-header {
+  }
+
+  .latest-funding-header {
         display: flex;
         width: 100%;
         justify-content: space-between;
         flex-wrap:wrap;
         margin-top: -11rem;
-      }
-      .latest-funding-header h1 a {
+  }
+
+  .latest-funding-header h1 a {
         font-size: 1rem;
        
-      }
-      .latest-funding-header-right {
+  }
+
+  .latest-funding-header-right {
         display:flex;
         flex-direction: column-reverse;
-      }
-      .latest-funding-container {
+  }
+
+  .latest-funding-container {
         display: -ms-grid;
         display: grid;
         grid-template: 1fr 1fr 1fr 1fr / 4fr;
@@ -507,33 +511,32 @@ footer {
         grid-row-gap: 1rem;
         width: 100%;
         height: 20rem;
-      }
-      .funding-container1 {
+  }
+
+   .funding-container1 {
         width: 100%;
-      }
-      .funding-commerce p {
+     }
+   .funding-commerce p {
         font-size:0.75rem;
-      }
-      .funding-p {
+    }
+    .funding-p {
         font-size:0.75rem;
-      }
+    }
      
-      .footer-mobile{
+    .footer-mobile{
         margin-top: 60rem;
-        height:25rem;
-      }
+        height:13rem;
+    }
 
-      .copyright {
+    .copyright {
         margin-top: 1.7rem;
-      }
-
+     }
 }
 
 
 /********TABLET********/
 
-@media screen and (max-width: 768px) {
- 
+@media (min-width: 480px) and (max-width: 768px){
   body {
     background-color: #fff;
   }
@@ -547,11 +550,10 @@ footer {
     padding: 0 1rem;
   }
 
-
-  .header-white-left a ul > li:nth-child(6) { display: none; }
-
-  .header-white-left a ul > li:last-child { display: none; }
-
+  .header-white-left a ul > li:nth-child(6),
+  .header-white-left a ul > li:last-child {
+     display: none; 
+  }
 
   .header-yellow {
     display: flex;
@@ -560,10 +562,6 @@ footer {
     height: 3rem;
     justify-content: flex-start;
     align-items: center;
-  }
-
-  .header-yellow a p {
-    
   }
 
   #content-grid .content-1 .two-in-one {
@@ -625,7 +623,6 @@ footer {
     font-size: 1.2rem;
   }
 
-  
   #content-grid .content-1 .two-in-one .third {
     margin-top: 0.5rem;
     padding: 1rem;
@@ -643,5 +640,48 @@ footer {
   #content-grid .content-1 .first .tuesday {
     display: none;
   }
-  
+
+  .latest-funding-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    flex-direction: column;
+  }
+
+  .latest-funding-header h1 a {
+    font-size: 1.8rem;
+  }
+
+  .latest-funding-header-right {
+    display:flex;
+    flex-direction: column-reverse;
+  }
+
+  .latest-funding-container {
+    display: -ms-grid;
+    display: grid;
+    grid-template: 1fr / repeat(3, 33.33%);
+    grid-column-gap: 1rem;
+    width: 100%;
+    height: 20rem;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .funding-container4{
+    display:none;
+  }
+
+  .funding-commerce p {
+    font-size:0.85rem;
+  }
+
+  .funding-p {
+    font-size:0.75rem;
+  }
+
+  .footer-mobile{
+    margin-top: 0rem;
+  }
 }
