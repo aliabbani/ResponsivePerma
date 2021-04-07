@@ -12,7 +12,7 @@ This Project is a clone of the New Web page (https://thenextweb.com/)
 - Coffee
  
 ## Live Demo
-[Live Demo Link] ()
+[Live Demo Link] (https://competent-pasteur-9e358d.netlify.app/)
  
 # Authors
  
