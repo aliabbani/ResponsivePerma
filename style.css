@@ -545,13 +545,14 @@ footer {
 
   .footer-mobile {
     margin-top: 60rem;
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.2rem;
   }
 
   .deep-black .copyright {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1.5rem;
     width: 114%;
   }
 
