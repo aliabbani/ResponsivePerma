@@ -48,7 +48,6 @@ header {
 
 .burger {
   padding-left: 1rem;
-  /* border-left: 1px solid gray; */
   display: none;
 }
 
@@ -73,7 +72,6 @@ header {
   border-left: 1px solid gray;
   padding-left: 1.5rem;
 }
-
 
 .left-nav a ul li {
   display: inline-block;
