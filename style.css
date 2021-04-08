@@ -674,20 +674,21 @@ footer {
 .hard-fork{
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(3, 33%);
-  grid-row-gap: 10%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 2%;
+  grid-column-gap: 2%;
   width: 100%;
   height:auto;
   border: 1px solid red;
 }
-.hard-fork-container {
-  display: -ms-grid;
-  display: grid;
-  grid-template-rows: 1fr 1r 1fr;
+
+.hard-fork-image span, a, p{
+  position:relative;
+  bottom:5rem;
 }
 
 .hard-fork-image-size{
-  width:500%;
+  width:100%;
 }
 
 .hard-fork-image {
@@ -699,8 +700,8 @@ footer {
 }
 
 .hard-fork-image-22{
-  display: block;
-  width:25%;
+  width:35%;
+  float:right;
 }
 /**latest deals Section**/
 .latest-deals-header {
