@@ -42,6 +42,16 @@ header {
   padding: 0 1rem;
 }
 
+.sub-logo {
+  display: none;
+}
+
+.burger {
+  padding-left: 1rem;
+  /* border-left: 1px solid gray; */
+  display: none;
+}
+
 .icons ul li {
   display: inline;
   padding: 1rem;
@@ -63,6 +73,7 @@ header {
   border-left: 1px solid gray;
   padding-left: 1.5rem;
 }
+
 
 .left-nav a ul li {
   display: inline-block;
@@ -385,6 +396,16 @@ footer {
     font-size: 0.5rem;
   }
 
+  .header-white-left {
+    display: inline-block;
+  }
+
+  .sub-logo {
+    display: block;
+    width: 25%;
+    margin-left: -4.9%;
+  }
+
   .header-white-left a ul li {
     display: none;
     height: 2rem;
@@ -399,6 +420,11 @@ footer {
 
   .header-white {
     height: 2.5rem;
+  }
+
+  .burger {
+    display: inline-block;
+    color: orange;
   }
 
   #content-grid {
@@ -521,11 +547,19 @@ footer {
 
   .footer-mobile {
     margin-top: 60rem;
-    height: 13rem;
+    margin-bottom: 0.1rem;
   }
 
-  .copyright {
-    margin-top: 1.7rem;
+  .deep-black .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 114%;
+  }
+
+  .word {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -548,6 +582,12 @@ footer {
   .header-white-left a ul > li:nth-child(6),
   .header-white-left a ul > li:last-child {
     display: none;
+  }
+
+  .sub-logo {
+    display: block;
+    width: 18%;
+    margin-left: -2.3%;
   }
 
   .header-yellow {
