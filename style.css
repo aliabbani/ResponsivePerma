@@ -433,6 +433,7 @@ footer {
   .content-1 {
     display: flex;
     flex-direction: column;
+    margin-top: -3rem;
   }
 
   #content-grid .content-1 .first {
