@@ -534,7 +534,6 @@ footer {
 @media (min-width: 480px) and (max-width: 768px) {
   body {
     background-color: #fff;
-    overflow: hidden;
   }
 
   .header-white {
