@@ -703,26 +703,65 @@ footer {
 }
 
 /**hard fork Section**/
-.hard-fork {
+/**hard fork Section**/
+.hard-fork{
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2%;
+  grid-row-gap: 10%;
+  grid-column-gap: 2%;
   width: 100%;
   height:auto;
+  border: 1px solid red;
+  margin-top: 3rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 15%;
+}
+
+.hard-fork-1 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), black), url("images/hqdefault.jpg");
+  background-size: cover;
+  height: 27rem;
+  background-position: center;
   
 }
 
-.hard-fork-image-size {
+.hard-fork-1 .span-1,
+.a-1,
+.span-a {
+  position: relative;
+  top: 20rem;
+  color: #fff;
+}
+
+.hard-fork-1 .latest {
+  position: relative;
+  top: 29rem;
+  background-color: rgb(247, 226, 230);
+  height: 5rem;
+}
+
+.hard-fork-image-size{
   width:100%;
-  display:hidden;
 }
 
-.test-44{
-  height:150%;
+.hard-fork-image {
+  border: 1px solid green;
 }
 
-.hard-fork-image-22 {
+.hard-fork-latest {
+  position: relative;
+  bottom: 7rem;
+}
+
+.hard-fork-2 {
+  border: 2px solid green;
+  position: relative;
+  top: 5rem;
+}
+
+.hard-fork-image-22{
   width:35%;
   float:right;
 }
