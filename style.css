@@ -901,6 +901,7 @@ footer {
   left:77%;
   top:9%;
   -webkit-transform: rotate(40deg);
+  background: yellow;
 }
 .latest-deals-text{
   padding-top: 5%;;
@@ -983,7 +984,7 @@ footer {
   }
   
   .latest-news-image-size {
-    width:25%;
+    width:100%;
   }
 
   .latest-news-container-text-bold {
@@ -994,15 +995,27 @@ footer {
     font-size: 70%;
   }
 
-  .lastest-news-container {
+  .latest-news-flex{
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between ;
+  }
+  
+  .latest-news-container-image{
+    width:80%;
+  }
+ .latest-news-container-text{
+  align-content: space-between ;
+  }
+  .latest-news-container-text-bold{
+    font-size: 75%;
+  }
+  .latest-news-container-text{
+    padding-left:1rem;
   }
 
-  .latest-news-container-text a {
-    align-items: baseline;
-  }
-  /**latest deals**/
+  /**hard-fork**/
 .hard-fork{
   display: -ms-grid;
   display: grid;
@@ -1010,30 +1023,63 @@ footer {
   grid-row-gap: 3%;
   width: 100%;
   height:auto;
-  margin-top: 10rem;
-  margin-bottom: 210%;
+  margin-top: 7rem;
+  margin-bottom: 200%;
 }
   /**latest deals**/
-  .latest-deals-header a  {
-    font-size: 80%;
-  }
-  
   .latest-deals-container {
     display: -ms-grid;
     display: grid;
     grid-template: repeat(8, 1fr) / 1fr;
-    grid-row-gap: 0.75%;
     width: 100%;
-    height:auto;
+    height: auto;
   }
 
-  .latest-deals-1{
+  .latest-deals-header {
+    margin-bottom: 7%;
+  }
+
+  .latest-deals-header a  {
+    font-size: 70%;
+  }
+  
+  .latest-deals-1 {
     display:flex;
+    justify-content: space-between;
+    height: 80%;
   }
 
-  .latest-deals-container-image{
-    width:35%;
+  .latest-deals-container-image-yellow {
+    background-color: #fff;
+    display:none;
   }
 
+  .latest-deals-container-image {
+    background-color: #fff;
+    width:40%;
+    height:100%;
+  }
 
+  .latest-deals-container-image-poket {
+    width:40%;
+  }
+
+  .latest-deals-image-size {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+  }
+
+  .latest-deals-text {
+    display: flex;
+    align-self:flex-start;
+    padding-left: 5%;
+  }
+
+  .latest-deals-text a h4, span, cite {
+    font-size: 70%;
+  }
+
+  .latest-deals-image-size1 {
+    width:127%;
+    padding-right:30%;
+  }
 }
