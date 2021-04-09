@@ -2,6 +2,7 @@
 Project 2: Building with Responsive Design.
  
 This Project is a clone of the New Web page (https://thenextweb.com/)
+A responsive design
  
 ![](images/screenshot.png)
  
@@ -14,21 +15,26 @@ This Project is a clone of the New Web page (https://thenextweb.com/)
 ## Live Demo
 [Live Demo Link] (https://competent-pasteur-9e358d.netlify.app/)
  
-# Authors
+
+## Authors
+
+👤 **Author1**
+
+- Name: Ajise Toluwase
+- GitHub: [@githubhandle](https://github.com/Whoistolu)
+- Twitter: [@twitterhandle](https://twitter.com/Littletolu)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/toluwase-ajise-9b40411b2/)
+
+
+## Authors
+
+👤 **Author2**
+
+- Name: Ali Abbani
+- GitHub: [@githubhandle](https://github.com/aliabbani)
+- Twitter: [@twitterhandle](https://twitter.com/aliabbani)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-abbani-8b6246150/)
  
-- GitHub: @aliabbani (https://github.com/aliabbani) 
-         
-- Twitter: @aliabbani 
-           
-- LinkedIn: @ali abbani (https://www.linkedin.com/in/ali-abbani-8b6246150/) 
- 
-# Authors2
- 
-- GitHub: @Ajise Toluwase (https://github.com/Whoistolu)
-         
-- Twitter: @littletolu
-           
-- LinkedIn: @Toluwase Ajise(https://www.linkedin.com/in/toluwase-ajise-9b40411b2/)
             
 ## 🤝 Contributing
  
