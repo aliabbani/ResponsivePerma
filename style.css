@@ -402,6 +402,14 @@ footer {
   #content-grid {
     padding-right: 1rem;
     padding-left: 1rem;
+    margin-top:-2.5rem;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  .flex{
+    overflow-x: hidden;
   }
 
   .content-1 {
