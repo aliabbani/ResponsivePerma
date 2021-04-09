@@ -756,13 +756,22 @@ footer {
 }
 
 .hard-fork-2 {
-  border: 2px solid green;
   position: relative;
   top: 5rem;
+  height: auto;
+}
+
+.hard-fork-2 ul li {
+  line-height: 150%;
+  border-bottom: 0.5px solid #555;
+}
+
+.hard-fork-2 ul li a:hover {
+  color:black;
 }
 
 .hard-fork-image-22{
-  width:35%;
+  width:40%;
   float:right;
 }
 /**latest deals Section**/
