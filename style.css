@@ -883,23 +883,23 @@ footer {
 .latest-deals-image-size {
   clip-path: polygon(66% 0, 100% 34%, 100% 100%, 0 100%, 0 0);
   width: 100%;
-  
 }
+
 .latest-deals-1{
   background: white;
 }
+
 .latest-deals-container-image{
   position: relative;
- 
   background: yellow;
 }
 
 .latest-deals-container-image-yellow{
-  font-size:100%;
+  font-size:75%;
   font-weight: bold;
   position: absolute;
-  left:210px;
-  top:19px;
+  left:77%;
+  top:9%;
   -webkit-transform: rotate(40deg);
 }
 .latest-deals-text{
@@ -935,6 +935,18 @@ footer {
     grid-row-gap: 2%;
     width: 100%;
     height:auto;
+  }
+  /**hard-fork**/
+  .hard-fork{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10%;
+    grid-column-gap: 2%;
+    width: 100%;
+    height:auto;
+    margin-top: 3rem;
+    margin-bottom: 70%;
   }
   /**latest deals**/
   .latest-deals-container {
