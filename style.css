@@ -64,12 +64,12 @@ header {
   padding-left: 1.5rem;
 }
 
-.left-nav a ul li {
+.left-nav > a > ul > li {
   display: inline-block;
   padding-left: 1rem;
 }
 
-.right-nav a ul li {
+.right-nav > a > ul > li {
   display: inline-block;
   padding-right: 1rem;
 }
@@ -81,12 +81,12 @@ header {
   align-items: center;
 }
 
-.funding-dlocal p {
+.funding-dlocal > p {
   font-size: 10px;
   opacity: 0.6;
 }
 
-.funding-commerce p {
+.funding-commerce > p {
   margin-top: 5%;
 }
 
@@ -244,7 +244,7 @@ header {
 .latest-funding-header h1 a {
   color: #f42;
   font-size: 2rem;
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .latest-funding-header-right a:hover {
@@ -266,7 +266,6 @@ header {
   grid-column-gap: 1rem;
   width: 100%;
   height: 20rem;
-
 }
 
 .funding-container-pink {
@@ -402,7 +401,7 @@ footer {
   #content-grid {
     padding-right: 1rem;
     padding-left: 1rem;
-    margin-top:-2.5rem;
+    margin-top: -2.5rem;
   }
 
   .content-1 {
@@ -655,22 +654,31 @@ footer {
   }
 }
 
-/**Latest News Section**/
+/* *Latest-News-Section* */
+
 .latest-news h1 a {
   color: #f42;
   font-size: 100%;
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .latest-news h1 {
   padding-bottom: 2%;
 }
+
+.hard-fork-latest a {
+  color: #f42;
+  font-weight: bold;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-size: 85%;
+}
+
 .latest-news h1 a:hover {
   color: black;
 }
 
 .latest-news-container-text-bold {
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-weight: bold;
   color: #000;
 }
@@ -679,14 +687,8 @@ footer {
   color: #f42;
 }
 
-.latest-news-container-text p {
-  color: #555;
-  font-size: 80%;
-  padding-top:2%;
-}
-
 .latest-news-container-text-black:hover {
-  color:black;
+  color: black;
 }
 
 .latest-news-grid {
@@ -696,40 +698,42 @@ footer {
   grid-column-gap: 2%;
   grid-row-gap: 2%;
   width: 100%;
-  height:auto;
+  height: auto;
 }
 
 .latest-news-image-size {
-  width:100%;
+  width: 100%;
 }
 
-/**hard fork Section**/
-/**hard fork Section**/
-.hard-fork{
+/* *hard fork Section* */
+
+/* *hard fork Section* */
+
+.hard-fork {
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 10%;
   grid-column-gap: 2%;
   width: 100%;
-  height:auto;
+  height: auto;
   margin-top: 3rem;
   margin-bottom: 15%;
 }
 
 .hard-fork-container-tech {
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-weight: bold;
   font-size: 100%;
   color: #f42;
 }
 
-.hard-fork-container-tech:hover{
-  color:black;
+.hard-fork-container-tech:hover {
+  color: black;
 }
 
-.hard-fork-container a h1{
-  padding-bottom: 5%;;
+.hard-fork-container > a > h1 {
+  padding-bottom: 5%;
 }
 
 .hard-fork-1 {
@@ -745,20 +749,19 @@ footer {
   position: relative;
   top: 20rem;
   color: #fff;
-  
+}
+
+.span-1 {
+  left: 1rem;
 }
 
 .hard-fork-1 .span-1,
-.a-1, {
+.a-1 {
   padding-left: 1rem;
 }
 
 .a-1 {
   font-size: 1rem;
-  left: 1rem;
-}
-
-.span-1 {
   left: 1rem;
 }
 
@@ -770,38 +773,27 @@ footer {
 
 .hard-fork-latest {
   position: relative;
-  top:20.5rem;
+  top: 20.5rem;
   padding-top: 1%;
   background-color: rgb(248, 211, 248);
-  height:5rem;
-  color:#f42;
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  height: 5rem;
+  color: #f42;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  bottom: 7rem;
 }
 
-.hard-fork-latest a {
-  color:#f42;
-  font-weight: bold;
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
-  font-size: 85%;
-}
-
-.hard-fork-image-size{
-  width:100%;
+.hard-fork-image-size {
+  width: 100%;
 }
 
 .hard-fork-image {
   border: 1px solid green;
 }
 
-.hard-fork-latest {
-  position: relative;
-  bottom: 7rem;
-  padding-top: 1%;
+.hard-fork-latest-paragraph {
+  color: red;
 }
 
-.hard-fork-latest-paragraph{
-  color:red;
-}
 .hard-fork-2 {
   position: relative;
   top: 6rem;
@@ -812,7 +804,9 @@ footer {
   line-height: 150%;
   border-bottom: 1px solid rgb(223, 223, 223);
   border-bottom-width: 0.1rem;
+
   /* border-collapse: seperate; */
+
   /* border-spacing: 1rem; */
 }
 
@@ -827,31 +821,33 @@ footer {
 }
 
 /* .hard-fork-2 ul li {
-  list-style-type: square;
+	list-style-type: square;
 } */
 
 .hard-fork-2 ul li a:hover {
-  color:black;
+  color: black;
 }
 
-.hard-fork-image-22{
-  width:30%;
-  float:right;
+.hard-fork-image-22 {
+  width: 30%;
+  float: right;
 }
-/**latest deals Section**/
+
+/**  latest deals Section  **/
+
 .latest-deals-header {
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: baseline;
   padding-bottom: 2%;
-  padding-top:4%;
+  padding-top: 4%;
 }
 
 .latest-deals-header a h1 {
   color: #f42;
   font-size: 200%;
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .latest-deals-header a p {
@@ -876,7 +872,7 @@ footer {
   grid-column-gap: 2%;
   grid-row-gap: 2%;
   width: 100%;
-  height:auto;
+  height: auto;
   padding-bottom: 5%;
   z-index: 1;
 }
@@ -886,29 +882,31 @@ footer {
   width: 100%;
 }
 
-.latest-deals-1{
+.latest-deals-1 {
   background: white;
 }
 
-.latest-deals-container-image{
+.latest-deals-container-image {
   position: relative;
   background: yellow;
 }
 
-.latest-deals-container-image-yellow{
-  font-size:75%;
+.latest-deals-container-image-yellow {
+  font-size: 75%;
   font-weight: bold;
   position: absolute;
-  left:77%;
-  top:9%;
+  left: 77%;
+  top: 9%;
   -webkit-transform: rotate(40deg);
   background: yellow;
 }
-.latest-deals-text{
-  padding-top: 5%;;
+
+.latest-deals-text {
+  padding-top: 5%;
 }
+
 .latest-deals-text a h4 {
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   color: #000;
 }
 
@@ -917,18 +915,22 @@ footer {
 }
 
 .latest-deals-text a span {
-  color:#555;
+  color: #555;
   text-decoration: line-through;
   font-size: 80%;
 }
 
-.latest-deals, .hard-fork, .latest-news, .latest-funding-header, .latest-funding-container{
+.latest-deals,
+.hard-fork,
+.latest-news,
+.latest-funding-header,
+.latest-funding-container {
   padding-left: 5%;
   padding-right: 5%;
 }
 
-@media (min-width: 480px) and (max-width: 768px){
-  /**latest newss**/
+@media (min-width: 480px) and (max-width: 768px) {
+  /**  latest newss  **/
   .latest-news-grid {
     display: -ms-grid;
     display: grid;
@@ -936,21 +938,23 @@ footer {
     grid-column-gap: 2%;
     grid-row-gap: 2%;
     width: 100%;
-    height:auto;
+    height: auto;
   }
-  /**hard-fork**/
-  .hard-fork{
+
+  /**  hard-fork  **/
+  .hard-fork {
     display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 10%;
     grid-column-gap: 2%;
     width: 100%;
-    height:auto;
+    height: auto;
     margin-top: 3rem;
     margin-bottom: 70%;
   }
-  /**latest deals**/
+
+  /**  latest deals  **/
   .latest-deals-container {
     display: -ms-grid;
     display: grid;
@@ -958,16 +962,20 @@ footer {
     grid-column-gap: 2%;
     grid-row-gap: 2%;
     width: 100%;
-    height:auto;
+    height: auto;
     padding-bottom: 5%;
   }
 }
 
-@media screen and (max-width: 480px){
-  /**latest news**/
+@media screen and (max-width: 480px) {
+  /**  latest news  **/
   .latest-news h1 {
-    margin-top:10%;
-    margin-bottom: 7%;;
+    margin-top: 10%;
+    margin-bottom: 7%;
+  }
+
+  .latest-deals-header a {
+    font-size: 70%;
   }
 
   .latest-news h1 a {
@@ -981,56 +989,61 @@ footer {
     grid-column-gap: 2%;
     grid-row-gap: 2%;
     width: 100%;
-    height:auto;
-  }
-  
-  .latest-news-image-size {
-    width:100%;
+    height: auto;
   }
 
-  .latest-news-container-text-bold {
-    font-size:80%;
+  .latest-news-image-size {
+    width: 100%;
   }
+
+  /* .latest-news-container-text-bold {
+    font-size: 80%;
+  } */
 
   .latest-news-container-text p {
     font-size: 70%;
   }
 
-  .latest-news-flex{
-    display:flex;
+  .latest-news-flex {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-content: space-between ;
-  }
-  
-  .latest-news-container-image{
-    width:80%;
-  }
- .latest-news-container-text{
-  align-content: space-between ;
-  }
-  .latest-news-container-text-bold{
-    font-size: 75%;
-  }
-  .latest-news-container-text{
-    padding-left:1rem;
+    align-content: space-between;
   }
 
-  /**hard-fork**/
-.hard-fork{
-  display: -ms-grid;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-row-gap: 3%;
-  width: 100%;
-  height:auto;
-  margin-top: 7rem;
-  margin-bottom: 200%;
-}
-.a-1{
-  font-size: 0.75rem;
-}
-  /**latest deals**/
+  .latest-news-container-image {
+    width: 80%;
+  }
+
+  /* .latest-news-container-text {
+    align-content: space-between;
+  } */
+
+  .latest-news-container-text-bold {
+    font-size: 75%;
+  }
+
+  .latest-news-container-text {
+    padding-left: 1rem;
+  }
+
+  /**  hard-fork  **/
+  .hard-fork {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 3%;
+    width: 100%;
+    height: auto;
+    margin-top: 7rem;
+    margin-bottom: 200%;
+  }
+
+  .a-1 {
+    font-size: 0.75rem;
+  }
+
+  /**  latest deals  **/
   .latest-deals-container {
     display: -ms-grid;
     display: grid;
@@ -1043,29 +1056,25 @@ footer {
     margin-bottom: 7%;
   }
 
-  .latest-deals-header a  {
-    font-size: 70%;
-  }
-  
   .latest-deals-1 {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     height: 80%;
   }
 
   .latest-deals-container-image-yellow {
     background-color: #fff;
-    display:none;
+    display: none;
   }
 
   .latest-deals-container-image {
     background-color: #fff;
-    width:40%;
-    height:100%;
+    width: 40%;
+    height: 100%;
   }
 
   .latest-deals-container-image-poket {
-    width:40%;
+    width: 40%;
   }
 
   .latest-deals-image-size {
@@ -1074,16 +1083,18 @@ footer {
 
   .latest-deals-text {
     display: flex;
-    align-self:flex-start;
+    align-self: flex-start;
     padding-left: 5%;
   }
 
-  .latest-deals-text a h4, span, cite {
+  .latest-deals-text a h4,
+  span,
+  cite {
     font-size: 70%;
   }
 
   .latest-deals-image-size1 {
-    width:127%;
-    padding-right:30%;
+    width: 127%;
+    padding-right: 30%;
   }
 }
