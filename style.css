@@ -404,13 +404,6 @@ footer {
     padding-left: 1rem;
     margin-top:-2.5rem;
   }
-  
-  body {
-    overflow-x: hidden;
-  }
-  .flex{
-    overflow-x: hidden;
-  }
 
   .content-1 {
     display: flex;
@@ -1033,6 +1026,9 @@ footer {
   height:auto;
   margin-top: 7rem;
   margin-bottom: 200%;
+}
+.a-1{
+  font-size: 0.75rem;
 }
   /**latest deals**/
   .latest-deals-container {
