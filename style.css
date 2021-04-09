@@ -717,7 +717,18 @@ footer {
 }
 
 .hard-fork-container-tech {
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 100%;
   color: #f42;
+}
+
+.hard-fork-container-tech:hover{
+  color:black;
+}
+
+.hard-fork-container a h1{
+  padding-bottom: 5%;;
 }
 
 .hard-fork-1 {
@@ -758,7 +769,7 @@ footer {
 
 .hard-fork-latest {
   position: relative;
-  top:21.5rem;
+  top:20.5rem;
   padding-top: 1%;
   background-color: rgb(248, 211, 248);
   height:5rem;
