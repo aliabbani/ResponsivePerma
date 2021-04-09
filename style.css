@@ -818,6 +818,7 @@ footer {
 .hard-fork-2 ul li ::before {
   content: "\2022";
   color: red;
+  margin-right: 1rem;
 }
 
 .hard-fork-2 ul {
