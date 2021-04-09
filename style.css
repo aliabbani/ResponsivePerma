@@ -1002,7 +1002,17 @@ footer {
   .latest-news-container-text a {
     align-items: baseline;
   }
-
+  /**latest deals**/
+.hard-fork{
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 3%;
+  width: 100%;
+  height:auto;
+  margin-top: 10rem;
+  margin-bottom: 210%;
+}
   /**latest deals**/
   .latest-deals-header a  {
     font-size: 80%;
@@ -1020,9 +1030,9 @@ footer {
   .latest-deals-1{
     display:flex;
   }
+
   .latest-deals-container-image{
     width:35%;
-    
   }
 
 
