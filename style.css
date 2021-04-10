@@ -401,7 +401,7 @@ footer {
 }
 
 /***** MOBILE ******/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   body {
     background-color: #fff;
   }
@@ -559,7 +559,7 @@ footer {
 }
 
 /******** TABLET ********/
-@media (min-width: 480px) and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   body {
     background-color: #fff;
   }
@@ -915,7 +915,7 @@ footer {
   padding-right: 5%;
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   /** latest-news-ipad **/
   .latest-news-grid {
     display: -ms-grid;
@@ -953,7 +953,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   /** latest-news-mobile **/
   .latest-news h1 {
     margin-top: 10%;
