@@ -705,7 +705,6 @@ footer {
 
 .latest-news-container-text-bold {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-weight: bold;
   color: #000;
 }
 
@@ -1026,7 +1025,7 @@ footer {
   } */
 
   .latest-news-container-text-bold {
-    font-size: 75%;
+    font-size: 90%;
   }
 
   .latest-news-container-text {
