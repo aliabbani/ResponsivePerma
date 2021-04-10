@@ -1062,7 +1062,7 @@ footer {
   .latest-deals-text {
     display: flex;
     align-self: flex-start;
-    padding-left: 5%;
+    padding-left: 4.99%;
   }
 
   .latest-deals-text a h4,
@@ -1075,3 +1075,4 @@ footer {
     width: 127%;
     padding-right: 30%;
   }
+}
