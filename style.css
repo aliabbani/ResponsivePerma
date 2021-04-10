@@ -697,7 +697,7 @@ footer {
   }
 }
 
-/* *Latest-News-Section* */
+/* *Latest-News-Section desktop* */
 
 .latest-news h1 {
   padding-bottom: 2%;
@@ -732,7 +732,7 @@ footer {
 
 /* *hard fork Section* */
 
-/* *hard fork Section* */
+/* *hard fork Section desktop* */
 
 .hard-fork {
   display: -ms-grid;
@@ -848,7 +848,7 @@ footer {
   float: right;
 }
 
-/**  latest deals Section  **/
+/**  latest deals Section desktop  **/
 
 .latest-deals-header {
   display: flex;
@@ -935,7 +935,7 @@ footer {
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /**  latest newss  **/
+  /**  latest newss ipad **/
   .latest-news-grid {
     display: -ms-grid;
     display: grid;
@@ -946,7 +946,7 @@ footer {
     height: auto;
   }
 
-  /**  hard-fork  **/
+  /**  hard-fork  ipad**/
   .hard-fork {
     display: -ms-grid;
     display: grid;
@@ -959,7 +959,7 @@ footer {
     margin-bottom: 70%;
   }
 
-  /**  latest deals  **/
+  /**  latest deals  ipad**/
   .latest-deals-container {
     display: -ms-grid;
     display: grid;
@@ -973,7 +973,7 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-  /**  latest news  **/
+  /**  latest news mobile **/
   .latest-news h1 {
     margin-top: 10%;
     margin-bottom: 7%;
@@ -1032,7 +1032,7 @@ footer {
     padding-left: 1rem;
   }
 
-  /**  hard-fork  **/
+  /**  hard-fork  mobile**/
   .hard-fork {
     display: -ms-grid;
     display: grid;
@@ -1041,14 +1041,13 @@ footer {
     width: 100%;
     height: auto;
     margin-top: 7rem;
-    margin-bottom: 200%;
+    margin-bottom: 210%;
   }
 
   .a-1 {
     font-size: 0.75rem;
   }
-
-  /**  latest deals  **/
+  /**  latest deals mobile **/
   .latest-deals-container {
     display: -ms-grid;
     display: grid;
@@ -1059,7 +1058,6 @@ footer {
 
   .latest-deals-header {
     margin-bottom: 7%;
-    margin-top:50%;
   }
 
   .latest-deals-1 {
