@@ -117,7 +117,6 @@ header {
 }
 
 /**** Highlights ***/
-
 #content-grid {
   display: flex;
   width: 100%;
@@ -244,7 +243,6 @@ header {
 }
 
 /* section-latest-funding */
-
 .latest-funding-header {
   display: flex;
   width: 100%;
@@ -350,7 +348,6 @@ header {
 }
 
 /* footer design */
-
 footer {
   display: flex;
   flex-direction: column;
@@ -404,7 +401,6 @@ footer {
 }
 
 /***** MOBILE ******/
-
 @media screen and (max-width: 480px) {
   body {
     background-color: #fff;
@@ -479,7 +475,6 @@ footer {
   }
 
   #content-grid .content-1 .two-in-one .third {
-    /* margin-left: 0.8rem; */
     margin-top: 0.5rem;
     padding: 1rem;
     background-image: linear-gradient(rgba(85, 5, 5, 0.2), rgb(7, 13, 97)), url(images/do-math.jpg);
@@ -564,7 +559,6 @@ footer {
 }
 
 /******** TABLET ********/
-
 @media (min-width: 480px) and (max-width: 768px) {
   body {
     background-color: #fff;
@@ -698,7 +692,6 @@ footer {
 }
 
 /** Latest-News-Section-desktop **/
-
 .latest-news h1 {
   padding-bottom: 2%;
 }
@@ -729,6 +722,7 @@ footer {
 .latest-news-image-size {
   width: 100%;
 }
+
 /** hard-fork-Section-desktop **/
 .hard-fork {
   display: -ms-grid;
@@ -771,10 +765,6 @@ footer {
   top: 18rem;
   color: #fff;
 }
-
-/* .span-1 {
-  left: 1rem;
-} */
 
 .hard-fork-1 .span-1,
 .a-1 {
@@ -830,10 +820,6 @@ footer {
 .hard-fork-2 ul {
   list-style: none;
 }
-
-/* .hard-fork-2 ul li {
-	list-style-type: square;
-} */
 
 .hard-fork-2 ul li a:hover {
   color: black;
@@ -996,10 +982,6 @@ footer {
     width: 100%;
   }
 
-  /* .latest-news-container-text-bold {
-    font-size: 80%;
-  } */
-
   .latest-news-container-text p {
     font-size: 70%;
   }
@@ -1014,10 +996,6 @@ footer {
   .latest-news-container-image {
     width: 80%;
   }
-
-  /* .latest-news-container-text {
-    align-content: space-between;
-  } */
 
   .latest-news-container-text-bold {
     font-size: 90%;
