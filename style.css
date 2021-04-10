@@ -116,7 +116,7 @@ header {
   color: #000;
 }
 
-/****Highlights***/
+/**** Highlights ***/
 
 #content-grid {
   display: flex;
@@ -243,7 +243,7 @@ header {
   color: gray;
 }
 
-/*section-latest-funding*/
+/* section-latest-funding */
 
 .latest-funding-header {
   display: flex;
@@ -403,7 +403,7 @@ footer {
   padding-top: 3%;
 }
 
-/*****MOBILE******/
+/***** MOBILE ******/
 
 @media screen and (max-width: 480px) {
   body {
@@ -563,7 +563,7 @@ footer {
   }
 }
 
-/********TABLET********/
+/******** TABLET ********/
 
 @media (min-width: 480px) and (max-width: 768px) {
   body {
@@ -697,7 +697,7 @@ footer {
   }
 }
 
-/**Latest-News-Section-desktop**/
+/** Latest-News-Section-desktop **/
 
 .latest-news h1 {
   padding-bottom: 2%;
@@ -729,7 +729,7 @@ footer {
 .latest-news-image-size {
   width: 100%;
 }
-/**hard-fork-Section-desktop**/
+/** hard-fork-Section-desktop **/
 .hard-fork {
   display: -ms-grid;
   display: grid;
@@ -843,7 +843,8 @@ footer {
   width: 30%;
   float: right;
 }
-/**latest-deals-Section-desktop**/
+
+/** latest-deals-Section-desktop **/
 .latest-deals-header {
   display: flex;
   width: 100%;
@@ -929,7 +930,7 @@ footer {
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  /**latest-news-ipad**/
+  /** latest-news-ipad **/
   .latest-news-grid {
     display: -ms-grid;
     display: grid;
@@ -940,7 +941,7 @@ footer {
     height: auto;
   }
 
-  /**hard-fork-ipad**/
+  /** hard-fork-ipad **/
   .hard-fork {
     display: -ms-grid;
     display: grid;
@@ -953,7 +954,7 @@ footer {
     margin-bottom: 70%;
   }
 
-  /**latest-deals-ipad**/
+  /** latest-deals-ipad **/
   .latest-deals-container {
     display: -ms-grid;
     display: grid;
@@ -967,7 +968,7 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-  /**latest-news-mobile**/
+  /** latest-news-mobile **/
   .latest-news h1 {
     margin-top: 10%;
     margin-bottom: 7%;
@@ -1026,7 +1027,7 @@ footer {
     padding-left: 1rem;
   }
 
-  /**hard-fork-mobile**/
+  /** hard-fork-mobile **/
   .hard-fork {
     display: -ms-grid;
     display: grid;
@@ -1041,7 +1042,8 @@ footer {
   .a-1 {
     font-size: 0.75rem;
   }
-  /**latest-deals-mobile**/
+
+  /** latest-deals-mobile **/
   .latest-deals-container {
     display: -ms-grid;
     display: grid;
