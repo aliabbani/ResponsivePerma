@@ -906,16 +906,7 @@ footer {
   font-size: 80%;
 }
 
-.latest-deals,
-.hard-fork,
-.latest-news,
-.latest-funding-header,
-.latest-funding-container {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-@media (min-width: 767px) and (max-width: 1024px) {
+@media screen (min-width: 767px) and (max-width: 1024px) {
   /** latest-news-ipad **/
   .latest-news-grid {
     display: -ms-grid;
@@ -1075,5 +1066,13 @@ footer {
     width: 127%;
     padding-right: 30%;
   }
+}
 
+.latest-deals,
+.hard-fork,
+.latest-news,
+.latest-funding-header,
+.latest-funding-container {
+  padding-left: 5%;
+  padding-right: 5%;
 }
