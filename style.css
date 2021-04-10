@@ -1062,17 +1062,18 @@ footer {
   .latest-deals-text {
     display: flex;
     align-self: flex-start;
-    padding-left: 4.99%;
+    padding-left: 5%;
   }
 
   .latest-deals-text a h4,
   span,
   cite {
-    font-size: 70%;
+    font-size: 71%;
   }
 
   .latest-deals-image-size1 {
     width: 127%;
     padding-right: 30%;
   }
+
 }
