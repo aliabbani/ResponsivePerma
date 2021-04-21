@@ -42,15 +42,6 @@ header {
   padding: 0 1rem;
 }
 
-.sub-logo {
-  display: none;
-}
-
-.burger {
-  padding-left: 1rem;
-  display: none;
-}
-
 .icons ul li {
   display: inline;
   padding: 1rem;
@@ -61,6 +52,16 @@ header {
 .navigation ul li {
   display: inline;
   padding: 0.5rem;
+}
+
+.hard-fork-2 ul li {
+  line-height: 150%;
+  border-bottom: 1px solid rgb(223, 223, 223);
+  border-bottom-width: 0.1rem;
+
+  /* border-collapse: seperate; */
+
+  /* border-spacing: 1rem; */
 }
 
 .header-white a ul li {
@@ -105,12 +106,17 @@ header {
   font-family: inherit;
 }
 
+.latest-news-container-text p {
+  color: #555;
+  font-size: 80%;
+  padding-top: 2%;
+}
+
 .header-yellow a p {
   color: #000;
 }
 
-/****  Highlights  ***/
-
+/**** Highlights ***/
 #content-grid {
   display: flex;
   width: 100%;
@@ -174,8 +180,18 @@ header {
   color: rgb(104, 100, 100);
 }
 
+.latest-deals-header a p {
+  color: #f42;
+  font-size: 100%;
+}
+
 .funding-commerce p:hover {
   color: #2b2a27;
+}
+
+.latest-deals-header a p:hover {
+  color: #2b2a27;
+  font-size: 100%;
 }
 
 #content-grid .content-1 .first .by-cult p {
@@ -226,8 +242,7 @@ header {
   color: gray;
 }
 
-/* section latest-funding */
-
+/* section-latest-funding */
 .latest-funding-header {
   display: flex;
   width: 100%;
@@ -235,8 +250,6 @@ header {
   align-items: baseline;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-left: 3%;
-  padding-right: 3%;
 }
 
 .deep-black .copyright .footer-logo1 a .new1 {
@@ -255,6 +268,13 @@ header {
 .latest-funding-header h1 a {
   color: #f42;
   font-size: 2rem;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.latest-news h1 a {
+  color: #f42;
+  font-size: 100%;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .latest-funding-header-right a:hover {
@@ -272,12 +292,10 @@ header {
 .latest-funding-container {
   display: -ms-grid;
   display: grid;
-  grid-template: 2fr 4fr 5fr 5fr / repeat(4, 25%);
+  grid-template: 2fr 4fr 5fr 5fr / repeat(4, 24%);
   grid-column-gap: 1rem;
   width: 100%;
   height: 20rem;
-  padding-left: 3%;
-  padding-right: 5%;
 }
 
 .funding-container-pink {
@@ -330,7 +348,6 @@ header {
 }
 
 /* footer design */
-
 footer {
   display: flex;
   flex-direction: column;
@@ -360,6 +377,10 @@ footer {
   padding-top: 2rem;
 }
 
+.latest-news h1 a:hover {
+  color: black;
+}
+
 .navigation ul li a:hover {
   color: white;
 }
@@ -379,9 +400,8 @@ footer {
   padding-top: 3%;
 }
 
-/*****  MOBILE  ******/
-
-@media screen and (max-width: 480px) {
+/***** MOBILE ******/
+@media screen and (max-width: 767px) {
   body {
     background-color: #fff;
   }
@@ -392,16 +412,6 @@ footer {
 
   .navigation ul li {
     font-size: 0.5rem;
-  }
-
-  .header-white-left {
-    display: inline-block;
-  }
-
-  .sub-logo {
-    display: block;
-    width: 25%;
-    margin-left: -4.9%;
   }
 
   .header-white-left a ul li {
@@ -420,20 +430,15 @@ footer {
     height: 2.5rem;
   }
 
-  .burger {
-    display: inline-block;
-    color: orange;
-  }
-
   #content-grid {
     padding-right: 1rem;
     padding-left: 1rem;
+    margin-top: -2.5rem;
   }
 
   .content-1 {
     display: flex;
     flex-direction: column;
-    margin-top: -3rem;
   }
 
   #content-grid .content-1 .first {
@@ -470,7 +475,6 @@ footer {
   }
 
   #content-grid .content-1 .two-in-one .third {
-    /* margin-left: 0.8rem; */
     margin-top: 0.5rem;
     padding: 1rem;
     background-image: linear-gradient(rgba(85, 5, 5, 0.2), rgb(7, 13, 97)), url(images/do-math.jpg);
@@ -533,7 +537,7 @@ footer {
     grid-template: 1fr 1fr 1fr 1fr / 4fr;
     width: 100%;
     grid-row-gap: 1%;
-    height: 20rem;
+    height: auto;
   }
 
   .funding-container1 {
@@ -545,27 +549,17 @@ footer {
   }
 
   .footer-mobile {
-    margin-top: 60rem;
-    margin-bottom: 0.2rem;
+    margin-top: 10rem;
+    height: 13rem;
   }
 
-  .deep-black .copyright {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1.5rem;
-    width: 114%;
-  }
-
-  .word {
-    display: flex;
-    justify-content: space-between;
+  .copyright {
+    margin-top: 1.7rem;
   }
 }
 
-/********  TABLET  ********/
-
-@media (min-width: 480px) and (max-width: 768px) {
+/******** TABLET ********/
+@media (min-width: 767px) and (max-width: 1024px) {
   body {
     background-color: #fff;
   }
@@ -582,12 +576,6 @@ footer {
   .header-white-left a ul > li:nth-child(6),
   .header-white-left a ul > li:last-child {
     display: none;
-  }
-
-  .sub-logo {
-    display: block;
-    width: 18%;
-    margin-left: -2.3%;
   }
 
   .header-yellow {
@@ -663,6 +651,13 @@ footer {
     flex-direction: column;
   }
 
+  .hard-fork-latest a {
+    color: #f42;
+    font-weight: bold;
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+    font-size: 85%;
+  }
+
   .latest-funding-header h1 a {
     font-size: 1.8rem;
   }
@@ -694,4 +689,390 @@ footer {
   .footer-mobile {
     margin-top: 0;
   }
+}
+
+/** Latest-News-Section-desktop **/
+.latest-news h1 {
+  padding-bottom: 2%;
+}
+
+.latest-news-container-text-bold {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  color: #000;
+}
+
+.latest-news-container-text-bold:hover {
+  color: #f42;
+}
+
+.latest-news-container-text-black:hover {
+  color: black;
+}
+
+.latest-news-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-template: 1fr 1fr / repeat(4, 23%);
+  grid-column-gap: 2%;
+  grid-row-gap: 2%;
+  width: 100%;
+  height: auto;
+}
+
+.latest-news-image-size {
+  width: 100%;
+}
+
+/** hard-fork-Section-desktop **/
+.hard-fork {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 10%;
+  grid-column-gap: 2%;
+  width: 100%;
+  height: auto;
+  margin-top: 3rem;
+  margin-bottom: 15%;
+}
+
+.hard-fork-container-tech {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  color: #f42;
+}
+
+.hard-fork-container-tech:hover {
+  color: black;
+}
+
+.hard-fork-container a h1 {
+  padding-bottom: 5%;
+}
+
+.hard-fork-1 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), black), url("images/hqdefault.jpg");
+  background-size: cover;
+  height: 27rem;
+  background-position: center;
+}
+
+.hard-fork-1 .span-1,
+.a-1,
+.span-a {
+  position: relative;
+  top: 18rem;
+  color: #fff;
+}
+
+.hard-fork-1 .span-1,
+.a-1 {
+  padding-left: 1rem;
+}
+
+.a-1 {
+  font-size: 1rem;
+  left: 1rem;
+}
+
+.span-a {
+  left: 1rem;
+  padding-top: 0.5rem;
+  color: gray;
+}
+
+.hard-fork-latest {
+  position: relative;
+  top: 19.5rem;
+  padding-top: 1%;
+  background-color: rgb(248, 211, 248);
+  height: 5rem;
+  color: #f42;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  bottom: 7rem;
+}
+
+.hard-fork-image-size {
+  width: 100%;
+}
+
+.hard-fork-image {
+  border: 1px solid green;
+}
+
+.hard-fork-latest-paragraph {
+  color: red;
+}
+
+.hard-fork-2 {
+  position: relative;
+  top: 6rem;
+  height: auto;
+}
+
+.hard-fork-2 ul li ::before {
+  content: "\2022";
+  color: red;
+  margin-right: 1rem;
+}
+
+.hard-fork-2 ul {
+  list-style: none;
+}
+
+.hard-fork-2 ul li a:hover {
+  color: black;
+}
+
+.hard-fork-image-22 {
+  width: 30%;
+  float: right;
+}
+
+/** latest-deals-Section-desktop **/
+.latest-deals-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 2%;
+  padding-top: 4%;
+}
+
+.latest-deals-header a h1 {
+  color: #f42;
+  font-size: 200%;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.latest-deals-header a h1:hover {
+  color: black;
+  font-size: 200%;
+}
+
+.latest-deals-container {
+  display: -ms-grid;
+  display: grid;
+  grid-template: 1fr 1fr / repeat(4, 24%);
+  grid-column-gap: 2%;
+  grid-row-gap: 2%;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5%;
+  z-index: 1;
+}
+
+.latest-deals-image-size {
+  clip-path: polygon(66% 0, 100% 34%, 100% 100%, 0 100%, 0 0);
+  width: 100%;
+}
+
+.latest-deals-1 {
+  background: white;
+}
+
+.latest-deals-container-image {
+  position: relative;
+  background: yellow;
+}
+
+.latest-deals-container-image-yellow {
+  font-size: 75%;
+  font-weight: bold;
+  position: absolute;
+  left: 77%;
+  top: 9%;
+  transform: rotate(40deg);
+  background: yellow;
+}
+
+.latest-deals-text {
+  padding-top: 5%;
+}
+
+.latest-deals-text a h4 {
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  color: #000;
+}
+
+.latest-deals-text a h4:hover {
+  color: #f42;
+}
+
+.latest-deals-text a span {
+  color: #555;
+  text-decoration: line-through;
+  font-size: 80%;
+}
+
+@media screen (min-width: 767px) and (max-width: 1024px) {
+  /** latest-news-ipad **/
+  .latest-news-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / repeat(3, 33%);
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+    width: 100%;
+    height: auto;
+  }
+
+  /** hard-fork-ipad **/
+  .hard-fork {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10%;
+    grid-column-gap: 2%;
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    margin-bottom: 70%;
+  }
+
+  /** latest-deals-ipad **/
+  .latest-deals-container {
+    display: -ms-grid;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / repeat(3, 33%);
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /** latest-news-mobile **/
+  .latest-news h1 {
+    margin-top: 10%;
+    margin-bottom: 7%;
+  }
+
+  .latest-deals-header a {
+    font-size: 70%;
+  }
+
+  .latest-news h1 a {
+    font-size: 1.5rem;
+  }
+
+  .latest-news-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-template: repeat(8, 1fr) / 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+    width: 100%;
+    height: auto;
+  }
+
+  .latest-news-image-size {
+    width: 100%;
+  }
+
+  .latest-news-container-text p {
+    font-size: 70%;
+  }
+
+  .latest-news-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+
+  .latest-news-container-image {
+    width: 80%;
+  }
+
+  .latest-news-container-text-bold {
+    font-size: 90%;
+  }
+
+  .latest-news-container-text {
+    padding-left: 1rem;
+  }
+
+  /** hard-fork-mobile **/
+  .hard-fork {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 3%;
+    width: 100%;
+    height: auto;
+    margin-top: 7rem;
+    margin-bottom: 210%;
+  }
+
+  .a-1 {
+    font-size: 0.75rem;
+  }
+
+  /** latest-deals-mobile **/
+  .latest-deals-container {
+    display: -ms-grid;
+    display: grid;
+    grid-template: repeat(8, 1fr) / 1fr;
+    width: 100%;
+    height: auto;
+  }
+
+  .latest-deals-header {
+    margin-bottom: 7%;
+  }
+
+  .latest-deals-1 {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+  }
+
+  .latest-deals-container-image-yellow {
+    background-color: #fff;
+    display: none;
+  }
+
+  .latest-deals-container-image {
+    background-color: #fff;
+    width: 40%;
+    height: 100%;
+  }
+
+  .latest-deals-container-image-poket {
+    width: 40%;
+  }
+
+  .latest-deals-image-size {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+  }
+
+  .latest-deals-text {
+    display: flex;
+    align-self: flex-start;
+    padding-left: 5%;
+  }
+
+  .latest-deals-text a h4,
+  span,
+  cite {
+    font-size: 71%;
+  }
+
+  .latest-deals-image-size1 {
+    width: 127%;
+    padding-right: 30%;
+  }
+}
+
+.latest-deals,
+.hard-fork,
+.latest-news,
+.latest-funding-header,
+.latest-funding-container {
+  padding-left: 5%;
+  padding-right: 5%;
 }
